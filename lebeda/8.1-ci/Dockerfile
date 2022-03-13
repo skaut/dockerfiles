@@ -1,4 +1,4 @@
-FROM fmasa/lebeda:8.1
+FROM skaut/lebeda:8.1
 
 LABEL maintainer="frantisekmasa1@gmail.com"
 
