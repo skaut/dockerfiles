@@ -1,6 +1,4 @@
-FROM php:8.0.11-apache
-
-LABEL maintainer="frantisekmasa1@gmail.com"
+FROM php:8.0.27-apache
 
 WORKDIR /var/www/html
 
