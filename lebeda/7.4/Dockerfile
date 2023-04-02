@@ -23,7 +23,7 @@ RUN apt-get update \
 	    locales \
 	&& docker-php-ext-configure gd --with-freetype --with-jpeg \
 	&& docker-php-ext-install -j$(nproc) gd soap mysqli pdo pdo_mysql zip bcmath intl \
-	&& pecl install xdebug \
+	&& pecl install xdebug-3.1.5 \
 	&& rm -rf /var/lib/apt/lists/*
 
 # Install Composer
