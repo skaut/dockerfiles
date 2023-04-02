@@ -1,4 +1,4 @@
-FROM php:8.1.16-apache
+FROM php:8.2.4-apache
 
 WORKDIR /var/www/html
 
